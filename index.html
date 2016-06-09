@@ -1,0 +1,37 @@
+<html ng-app="mainApp" link="blue">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="reset.css">
+<link rel="stylesheet" href="homecss.css">
+</head>
+
+  <body link="blue">
+    <header-directive></header-directive>
+    <div class="view-div">
+      <ui-view autoscroll="false"></ui-view>
+
+    </div>
+
+
+
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.3/angular.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.8/angular-ui-router.js"></script>
+		<script src="./public/all.js"></script>
+
+
+
+	</body>
+</html>
+
+
+
+<!-- <div>
+<a ui-sref="home">Home</a>
+<a ui-sref="signup">Signup</a>
+<a ui-sref="details">Details</a>
+
+</div>
+<ui-view></ui-view> -->
